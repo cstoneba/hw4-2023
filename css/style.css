@@ -140,7 +140,7 @@ nav a:focus{
 
 .container div:first-child{
   grid-column: 1 / span all;
-  background-image: url("/images/header.jpg");
+  background-image: url("../images/header.jpg");
   max-height: 400px;
 }
 
@@ -227,7 +227,7 @@ nav a:focus{
 
   /*Step 9: Write the selector/rule property to style the nav element*/
 
- @media screen and (min-width: 900px) {
+ @media screen and (min-width: 800px) {
 
   nav{
     text-align: right;
